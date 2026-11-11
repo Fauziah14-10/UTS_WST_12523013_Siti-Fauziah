@@ -43,15 +43,19 @@
 - Hasil pemeriksaan ulang: Aplikasi berhasil menampilkan daftar produk, tombol tambah ke keranjang dapat digunakan, dan total harga sudah memperhitungkan jumlah barang. Pengujian otomatis menunjukkan 7 pengujian berhasil dan 0 pengujian gagal. Pemeriksaan kualitas kode dilanjutkan menggunakan perintah lint, format, dan quality.
 
 ## D. Git
-- Branch (jika membuat):
-- Ringkasan commit:
+- Branch (jika membuat): Tidak membuat branch baru, hanya main
+- Ringkasan commit: 1. chore: initial exam. 2. fix: repair shop behavior
 - Hasil pemeriksaan `git status`:
+On branch main
+nothing to commit, working tree clean
 
 ## E. Pemakaian kecerdasan buatan (jika digunakan)
-- Nama alat: 
-- Pertanyaan/instruksi yang diberikan:
-- Bagian jawaban yang diterapkan:
-- Cara memeriksa apakah saran tersebut benar:
+- Nama alat: ChatGPT (openAI)
+- Pertanyaan/instruksi yang diberikan: Meminta bantuan untuk mengidentifikasi dan memperbaiki kesalahan pada kode program, seperti produk yang tidak tampil, tombol tambah ke keranjang yang tidak berfungsi, dan perhitungan total harga yang belum sesuai.
+
+- Bagian jawaban yang diterapkan:Menerapkan saran perbaikan pada file public/app.js dan src/cart.js, yaitu menyesuaikan endpoint API, memperbaiki selector tombol, serta memperbaiki rumus perhitungan total harga berdasarkan jumlah barang.
+
+- Cara memeriksa apakah saran tersebut benar:Memeriksa kembali kode program, menjalankan aplikasi melalui browser, mencoba fitur tambah ke keranjang, dan menjalankan pengujian otomatis menggunakan perintah npm run test:once hingga mendapatkan hasil 7 pengujian berhasil dan 0 gagal.
 
 ## F. Refleksi singkat
-- Satu pelajaran paling penting dari ujian ini:
+- Satu pelajaran paling penting dari ujian ini: Saya belajar bahwa dalam memperbaiki program, penting untuk memahami hubungan antarbagian kode dan tidak hanya berfokus pada satu fungsi. Setiap perbaikan harus diuji kembali.
